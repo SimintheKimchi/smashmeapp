@@ -4,222 +4,392 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Menu">
+    tools:context=".Menu"
+    tools:layout_editor_absoluteY="25dp">
 
     <ImageButton
-        android:id="@+id/imageButton16"
-        android:layout_width="62dp"
-        android:layout_height="67dp"
-        app:srcCompat="@mipmap/ic_launcher"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="405dp" />
-
-    <ImageButton
-        android:id="@+id/imageButton23"
+        android:id="@+id/button_main_kirby"
         android:layout_width="62dp"
         android:layout_height="62dp"
-        app:srcCompat="@drawable/kirby"
-        tools:layout_editor_absoluteX="233dp"
-        tools:layout_editor_absoluteY="16dp" />
+        app:layout_constraintBottom_toTopOf="@+id/button_main_sheik"
+        app:layout_constraintEnd_toStartOf="@+id/button_main_fox"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/button_main_samus"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/kirby" />
 
     <ImageButton
-        android:id="@+id/imageButton"
+        android:id="@+id/button_main_ness"
         android:layout_width="62dp"
         android:layout_height="62dp"
-        app:srcCompat="@drawable/ness"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="95dp" />
+        app:layout_constraintBottom_toTopOf="@+id/button_main_marth"
+        app:layout_constraintEnd_toStartOf="@+id/button_main_peach"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_main_mario"
+        app:srcCompat="@drawable/ness" />
 
     <ImageButton
-        android:id="@+id/imageButton2"
+        android:id="@+id/button_main_peach"
         android:layout_width="62dp"
         android:layout_height="62dp"
-        app:srcCompat="@drawable/peach"
-        tools:layout_editor_absoluteX="89dp"
-        tools:layout_editor_absoluteY="95dp" />
+        app:layout_constraintBottom_toTopOf="@+id/button_main_roy"
+        app:layout_constraintEnd_toStartOf="@+id/button_main_bowser"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/button_main_ness"
+        app:layout_constraintTop_toBottomOf="@+id/button_main_link"
+        app:srcCompat="@drawable/peach" />
 
     <ImageButton
-        android:id="@+id/imageButton3"
+        android:id="@+id/button_main_sheik"
         android:layout_width="62dp"
         android:layout_height="62dp"
-        app:srcCompat="@drawable/sheik"
-        tools:layout_editor_absoluteX="233dp"
-        tools:layout_editor_absoluteY="95dp" />
+        app:layout_constraintBottom_toTopOf="@+id/button_main_snake"
+        app:layout_constraintEnd_toStartOf="@+id/button_main_zelda"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/button_main_bowser"
+        app:layout_constraintTop_toBottomOf="@+id/button_main_kirby"
+        app:srcCompat="@drawable/sheik" />
 
     <ImageButton
-        android:id="@+id/imageButton4"
+        android:id="@+id/button_main_zelda"
         android:layout_width="62dp"
         android:layout_height="62dp"
-        app:srcCompat="@drawable/zelda"
-        tools:layout_editor_absoluteX="306dp"
-        tools:layout_editor_absoluteY="95dp" />
+        app:layout_constraintBottom_toTopOf="@+id/button_main_ike"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/button_main_sheik"
+        app:layout_constraintTop_toBottomOf="@+id/button_main_fox"
+        app:srcCompat="@drawable/zelda" />
 
     <ImageButton
-        android:id="@+id/imageButton6"
+        android:id="@+id/button_main_samus"
         android:layout_width="62dp"
         android:layout_height="62dp"
-        app:srcCompat="@drawable/samus"
-        tools:layout_editor_absoluteX="161dp"
-        tools:layout_editor_absoluteY="16dp" />
+        app:layout_constraintBottom_toTopOf="@+id/button_main_bowser"
+        app:layout_constraintEnd_toStartOf="@+id/button_main_kirby"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/button_main_link"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/samus" />
 
     <ImageButton
-        android:id="@+id/imageButton7"
+        android:id="@+id/button_main_fox"
         android:layout_width="62dp"
         android:layout_height="62dp"
-        app:srcCompat="@drawable/fox"
-        tools:layout_editor_absoluteX="306dp"
-        tools:layout_editor_absoluteY="16dp" />
+        app:layout_constraintBottom_toTopOf="@+id/button_main_zelda"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/button_main_kirby"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/fox" />
 
     <ImageButton
-        android:id="@+id/imageButton9"
+        android:id="@+id/button_main_bowser"
         android:layout_width="62dp"
         android:layout_height="62dp"
-        app:srcCompat="@drawable/bowser"
-        tools:layout_editor_absoluteX="161dp"
-        tools:layout_editor_absoluteY="95dp" />
+        app:layout_constraintBottom_toTopOf="@+id/button_main_pit"
+        app:layout_constraintEnd_toStartOf="@+id/button_main_sheik"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/button_main_peach"
+        app:layout_constraintTop_toBottomOf="@+id/button_main_samus"
+        app:srcCompat="@drawable/bowser" />
 
     <ImageButton
-        android:id="@+id/imageButton10"
+        android:id="@+id/button_main_link"
         android:layout_width="62dp"
         android:layout_height="62dp"
-        app:srcCompat="@drawable/link"
-        tools:layout_editor_absoluteX="89dp"
-        tools:layout_editor_absoluteY="16dp" />
+        app:layout_constraintBottom_toTopOf="@+id/button_main_peach"
+        app:layout_constraintEnd_toStartOf="@+id/button_main_samus"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/button_main_mario"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/link" />
 
     <ImageButton
-        android:id="@+id/imageButton11"
+        android:id="@+id/button_main_marth"
         android:layout_width="62dp"
         android:layout_height="62dp"
-        app:srcCompat="@drawable/marth"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="172dp" />
+        app:layout_constraintBottom_toTopOf="@+id/button_main_sonic"
+        app:layout_constraintEnd_toStartOf="@+id/button_main_roy"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_main_ness"
+        app:srcCompat="@drawable/marth" />
 
     <ImageButton
-        android:id="@+id/imageButton12"
+        android:id="@+id/button_main_roy"
         android:layout_width="62dp"
         android:layout_height="62dp"
-        app:srcCompat="@drawable/roy"
-        tools:layout_editor_absoluteX="89dp"
-        tools:layout_editor_absoluteY="172dp" />
+        app:layout_constraintBottom_toTopOf="@+id/button_main_robin"
+        app:layout_constraintEnd_toStartOf="@+id/button_main_pit"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/button_main_marth"
+        app:layout_constraintTop_toBottomOf="@+id/button_main_peach"
+        app:srcCompat="@drawable/roy" />
 
     <ImageButton
-        android:id="@+id/imageButton13"
+        android:id="@+id/button_main_pit"
         android:layout_width="62dp"
         android:layout_height="62dp"
-        app:srcCompat="@drawable/pit"
-        tools:layout_editor_absoluteX="161dp"
-        tools:layout_editor_absoluteY="172dp" />
+        app:layout_constraintBottom_toTopOf="@+id/button_main_shulk"
+        app:layout_constraintEnd_toStartOf="@+id/button_main_snake"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/button_main_roy"
+        app:layout_constraintTop_toBottomOf="@+id/button_main_bowser"
+        app:srcCompat="@drawable/pit" />
 
     <ImageButton
-        android:id="@+id/imageButton15"
+        android:id="@+id/button_main_snake"
         android:layout_width="62dp"
         android:layout_height="62dp"
-        app:srcCompat="@drawable/snake"
-        tools:layout_editor_absoluteX="233dp"
-        tools:layout_editor_absoluteY="172dp" />
+        app:layout_constraintBottom_toTopOf="@+id/button_main_ryu"
+        app:layout_constraintEnd_toStartOf="@+id/button_main_ike"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/button_main_pit"
+        app:layout_constraintTop_toBottomOf="@+id/button_main_sheik"
+        app:srcCompat="@drawable/snake" />
 
     <ImageButton
-        android:id="@+id/imageButton18"
+        android:id="@+id/button_main_ike"
         android:layout_width="62dp"
         android:layout_height="62dp"
-        app:srcCompat="@drawable/ike"
-        tools:layout_editor_absoluteX="306dp"
-        tools:layout_editor_absoluteY="172dp" />
+        app:layout_constraintBottom_toTopOf="@+id/button_main_cloud"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/button_main_snake"
+        app:layout_constraintTop_toBottomOf="@+id/button_main_zelda"
+        app:srcCompat="@drawable/ike" />
 
     <ImageButton
-        android:id="@+id/imageButton19"
+        android:id="@+id/button_main_sonic"
         android:layout_width="62dp"
         android:layout_height="62dp"
-        app:srcCompat="@drawable/sonic"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="252dp" />
+        app:layout_constraintBottom_toTopOf="@+id/button_main_corrin"
+        app:layout_constraintEnd_toStartOf="@+id/button_main_robin"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_main_marth"
+        app:srcCompat="@drawable/sonic" />
 
     <ImageButton
-        android:id="@+id/imageButton20"
+        android:id="@+id/button_main_robin"
         android:layout_width="62dp"
         android:layout_height="62dp"
-        app:srcCompat="@drawable/robin"
-        tools:layout_editor_absoluteX="89dp"
-        tools:layout_editor_absoluteY="252dp" />
+        app:layout_constraintBottom_toTopOf="@+id/button_main_simon"
+        app:layout_constraintEnd_toStartOf="@+id/button_main_shulk"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/button_main_sonic"
+        app:layout_constraintTop_toBottomOf="@+id/button_main_roy"
+        app:srcCompat="@drawable/robin" />
 
     <ImageButton
-        android:id="@+id/imageButton8"
+        android:id="@+id/button_main_shulk"
         android:layout_width="62dp"
         android:layout_height="62dp"
-        app:srcCompat="@drawable/shulk"
-        tools:layout_editor_absoluteX="161dp"
-        tools:layout_editor_absoluteY="252dp" />
+        app:layout_constraintBottom_toTopOf="@+id/button_main_piranha"
+        app:layout_constraintEnd_toStartOf="@+id/button_main_ryu"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/button_main_robin"
+        app:layout_constraintTop_toBottomOf="@+id/button_main_pit"
+        app:srcCompat="@drawable/shulk" />
 
     <ImageButton
-        android:id="@+id/imageButton21"
+        android:id="@+id/button_main_ryu"
         android:layout_width="62dp"
         android:layout_height="62dp"
-        app:srcCompat="@drawable/ryu"
-        tools:layout_editor_absoluteX="233dp"
-        tools:layout_editor_absoluteY="252dp" />
+        app:layout_constraintBottom_toTopOf="@+id/button_main_wilfred"
+        app:layout_constraintEnd_toStartOf="@+id/button_main_cloud"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/button_main_shulk"
+        app:layout_constraintTop_toBottomOf="@+id/button_main_snake"
+        app:srcCompat="@drawable/ryu" />
 
     <ImageButton
-        android:id="@+id/imageButton22"
+        android:id="@+id/button_main_cloud"
         android:layout_width="62dp"
         android:layout_height="62dp"
-        app:srcCompat="@drawable/cloud"
-        tools:layout_editor_absoluteX="306dp"
-        tools:layout_editor_absoluteY="252dp" />
+        app:layout_constraintBottom_toTopOf="@+id/button_main_airpods"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/button_main_ryu"
+        app:layout_constraintTop_toBottomOf="@+id/button_main_ike"
+        app:srcCompat="@drawable/cloud" />
 
     <ImageButton
-        android:id="@+id/imageButton17"
+        android:id="@+id/button_main_corrin"
         android:layout_width="62dp"
         android:layout_height="62dp"
-        app:srcCompat="@drawable/corrin"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="328dp" />
+        app:layout_constraintBottom_toTopOf="@+id/button_main_binks"
+        app:layout_constraintEnd_toStartOf="@+id/button_main_simon"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_main_sonic"
+        app:srcCompat="@drawable/corrin" />
 
     <ImageButton
-        android:id="@+id/imageButton24"
+        android:id="@+id/button_main_simon"
         android:layout_width="62dp"
         android:layout_height="62dp"
-        app:srcCompat="@drawable/simon"
-        tools:layout_editor_absoluteX="89dp"
-        tools:layout_editor_absoluteY="328dp" />
+        app:layout_constraintBottom_toTopOf="@+id/button_main_squid"
+        app:layout_constraintEnd_toStartOf="@+id/button_main_piranha"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/button_main_corrin"
+        app:layout_constraintTop_toBottomOf="@+id/button_main_robin"
+        app:srcCompat="@drawable/simon" />
 
     <ImageButton
-        android:id="@+id/imageButton5"
+        android:id="@+id/button_main_mario"
         android:layout_width="62dp"
         android:layout_height="62dp"
-        app:srcCompat="@drawable/mario"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="16dp" />
+        app:layout_constraintBottom_toTopOf="@+id/button_main_ness"
+        app:layout_constraintEnd_toStartOf="@+id/button_main_link"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/mario" />
 
     <ImageButton
-        android:id="@+id/imageButton14"
+        android:id="@+id/button_main_shawoo"
         android:layout_width="62dp"
         android:layout_height="62dp"
-        app:srcCompat="@drawable/shawoo"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="489dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/button_main_brenda"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_main_binks"
+        app:srcCompat="@drawable/shawoo" />
 
     <ImageButton
-        android:id="@+id/imageButton25"
+        android:id="@+id/button_main_brenda"
         android:layout_width="62dp"
         android:layout_height="62dp"
-        app:srcCompat="@drawable/brenda"
-        tools:layout_editor_absoluteX="89dp"
-        tools:layout_editor_absoluteY="489dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/button_main_beter"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/button_main_shawoo"
+        app:layout_constraintTop_toBottomOf="@+id/button_main_squid"
+        app:srcCompat="@drawable/brenda" />
 
     <ImageButton
-        android:id="@+id/imageButton26"
+        android:id="@+id/button_main_beter"
         android:layout_width="62dp"
         android:layout_height="62dp"
-        app:srcCompat="@drawable/beter"
-        tools:layout_editor_absoluteX="161dp"
-        tools:layout_editor_absoluteY="489dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/button_main_doonil"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/button_main_brenda"
+        app:layout_constraintTop_toBottomOf="@+id/button_main_yoda"
+        app:srcCompat="@drawable/beter" />
 
     <ImageButton
-        android:id="@+id/imageButton27"
+        android:id="@+id/button_main_doonil"
         android:layout_width="62dp"
         android:layout_height="62dp"
-        app:srcCompat="@drawable/doonil"
-        tools:layout_editor_absoluteX="233dp"
-        tools:layout_editor_absoluteY="489dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/button_main_menu"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/button_main_beter"
+        app:layout_constraintTop_toBottomOf="@+id/button_main_wick"
+        app:srcCompat="@drawable/doonil" />
+
+    <ImageButton
+        android:id="@+id/button_main_pom"
+        android:layout_width="62dp"
+        android:layout_height="62dp"
+        app:layout_constraintBottom_toTopOf="@+id/button_main_menu"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/button_main_wick"
+        app:layout_constraintTop_toBottomOf="@+id/button_main_airpods"
+        app:srcCompat="@drawable/pomdog" />
+
+    <ImageButton
+        android:id="@+id/button_main_wilfred"
+        android:layout_width="62dp"
+        android:layout_height="62dp"
+        app:layout_constraintBottom_toTopOf="@+id/button_main_wick"
+        app:layout_constraintEnd_toStartOf="@+id/button_main_airpods"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/button_main_piranha"
+        app:layout_constraintTop_toBottomOf="@+id/button_main_ryu"
+        app:srcCompat="@drawable/wilfred" />
+
+    <ImageButton
+        android:id="@+id/button_main_airpods"
+        android:layout_width="62dp"
+        android:layout_height="62dp"
+        app:layout_constraintBottom_toTopOf="@+id/button_main_pom"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/button_main_wilfred"
+        app:layout_constraintTop_toBottomOf="@+id/button_main_cloud"
+        app:srcCompat="@drawable/airpodssmash" />
+
+    <ImageButton
+        android:id="@+id/button_main_squid"
+        android:layout_width="62dp"
+        android:layout_height="62dp"
+        app:layout_constraintBottom_toTopOf="@+id/button_main_brenda"
+        app:layout_constraintEnd_toStartOf="@+id/button_main_yoda"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/button_main_binks"
+        app:layout_constraintTop_toBottomOf="@+id/button_main_simon"
+        app:srcCompat="@drawable/squidwardsmash" />
+
+    <ImageButton
+        android:id="@+id/button_main_yoda"
+        android:layout_width="62dp"
+        android:layout_height="62dp"
+        app:layout_constraintBottom_toTopOf="@+id/button_main_beter"
+        app:layout_constraintEnd_toStartOf="@+id/button_main_wick"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/button_main_squid"
+        app:layout_constraintTop_toBottomOf="@+id/button_main_piranha"
+        app:srcCompat="@drawable/legoyoda" />
+
+    <ImageButton
+        android:id="@+id/button_main_wick"
+        android:layout_width="62dp"
+        android:layout_height="62dp"
+        app:layout_constraintBottom_toTopOf="@+id/button_main_doonil"
+        app:layout_constraintEnd_toStartOf="@+id/button_main_pom"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/button_main_yoda"
+        app:layout_constraintTop_toBottomOf="@+id/button_main_wilfred"
+        app:srcCompat="@drawable/joshwicksmash" />
+
+    <ImageButton
+        android:id="@+id/button_main_piranha"
+        android:layout_width="62dp"
+        android:layout_height="62dp"
+        app:layout_constraintBottom_toTopOf="@+id/button_main_yoda"
+        app:layout_constraintEnd_toStartOf="@+id/button_main_wilfred"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/button_main_simon"
+        app:layout_constraintTop_toBottomOf="@+id/button_main_shulk"
+        app:srcCompat="@drawable/piranhaplant" />
+
+    <ImageButton
+        android:id="@+id/button_main_menu"
+        android:layout_width="62dp"
+        android:layout_height="62dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/button_main_doonil"
+        app:layout_constraintTop_toBottomOf="@+id/button_main_pom"
+        app:srcCompat="@android:drawable/btn_star" />
+
+    <ImageButton
+        android:id="@+id/button_main_binks"
+        android:layout_width="62dp"
+        android:layout_height="62dp"
+        app:layout_constraintBottom_toTopOf="@+id/button_main_shawoo"
+        app:layout_constraintEnd_toStartOf="@+id/button_main_squid"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_main_corrin"
+        app:srcCompat="@drawable/jarjarsmash" />
 
 </android.support.constraint.ConstraintLayout>
