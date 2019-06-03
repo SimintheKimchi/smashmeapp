@@ -119,7 +119,8 @@ public class Menu extends AppCompatActivity {
         cloud.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                imageViewActivity();
+                Intent intentLoadNewActivty = new Intent(Menu.this, Cloud.class);
+                startActivity(intentLoadNewActivty);
                 currentChar = 5;
             }
         });
@@ -151,7 +152,8 @@ public class Menu extends AppCompatActivity {
         ike.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                imageViewActivity();
+                Intent intentLoadNewActivty = new Intent(Menu.this, Ike.class);
+                startActivity(intentLoadNewActivty);
                 currentChar = 9;
             }
         });

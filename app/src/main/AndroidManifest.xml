@@ -18,6 +18,8 @@
         </activity>
         <activity android:name=".Mario" />
         <activity android:name=".Showcase" />
+        <activity android:name=".Ike" />
+        <activity android:name=".Cloud"></activity>
     </application>
 
 </manifest>

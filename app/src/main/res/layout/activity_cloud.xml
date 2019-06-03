@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Cloud">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/cloudmenu" />
+
+            <TextView
+                android:id="@+id/textview_showcase_name"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:fontFamily="sans-serif-condensed"
+                android:paddingTop="15dp"
+                android:text="Cloud"
+                android:textAlignment="center"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                tools:text="Cloud" />
+
+            <TextView
+                android:id="@+id/textview_showcase_weightclass"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:fontFamily="monospace"
+                android:padding="6dp"
+                android:text="Medium"
+                android:textAlignment="center"
+                android:textSize="18sp"
+                tools:text="Medium" />
+
+            <TextView
+                android:id="@+id/textview_showcase_playtype"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:fontFamily="monospace"
+                android:padding="6dp"
+                android:text="Aggressive"
+                android:textAlignment="center"
+                android:textSize="18sp"
+                tools:text="Aggressive" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:fontFamily="monospace"
+                android:paddingTop="20dp"
+                android:text="How to Play"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                tools:text="How to Play" />
+
+            <TextView
+                android:id="@+id/textview_showcase_instructions"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:fontFamily="monospace"
+                android:padding="6dp"
+                android:textAlignment="center"
+                android:textSize="18sp"
+                tools:text="All of his moves are slow and heavy, but they pack quite the punch. With a single forward-tilt, launch your opponent to the other side of the stage. Then, using Cloud’s surprisingly quick agility, chase them down and chain together a combo that will blow your opponents outside of the map. With Cloud, you want to be up close and personal with your opponent, giving them no chance to breathe. If it seems they will take a while to get back into battle, charge your limit so you can deal even heavier blows onto your opponent." />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:fontFamily="monospace"
+                android:paddingTop="20dp"
+                android:text="Example"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <pl.droidsonroids.gif.GifImageView
+                android:id="@+id/gifview_showcase_combo"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:src="@drawable/combomario" />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>
