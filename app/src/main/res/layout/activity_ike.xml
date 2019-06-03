@@ -95,7 +95,7 @@
                 android:id="@+id/gifview_showcase_combo"
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
-                android:src="@drawable/combomario" />
+                android:src="@drawable/comboike" />
 
 
         </LinearLayout>

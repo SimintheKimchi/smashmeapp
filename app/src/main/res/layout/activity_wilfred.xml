@@ -43,9 +43,10 @@
                 android:layout_height="fill_parent"
                 android:fontFamily="monospace"
                 android:padding="6dp"
+                android:text="Fluffy"
                 android:textAlignment="center"
                 android:textSize="18sp"
-                tools:text="Weight Class" />
+                tools:text="Fluffy" />
 
             <TextView
                 android:id="@+id/textview_showcase_playtype"
@@ -53,9 +54,10 @@
                 android:layout_height="fill_parent"
                 android:fontFamily="monospace"
                 android:padding="6dp"
+                android:text="Ugly is the new cute"
                 android:textAlignment="center"
                 android:textSize="18sp"
-                tools:text="Play Type" />
+                tools:text="Ugly is the new cute" />
 
             <TextView
                 android:layout_width="fill_parent"
@@ -74,9 +76,10 @@
                 android:layout_height="fill_parent"
                 android:fontFamily="monospace"
                 android:padding="6dp"
+                android:text="“Ew It’s so ugly. I can’t believe how ugly it is. How was it born that way?” Keep talking that way and we’ll see what happens next. Don’t you dare throw shade at Wilfred you inbred createns. It is the cutest cat and nobody is gonna change their mind. Notice I said “their mind” and not “my mind”. That’s because there is no choice. You either love Wilfred or be hunted down by Wilfred himself."
                 android:textAlignment="center"
                 android:textSize="18sp"
-                tools:text="Instructions" />
+                tools:text="“Ew It’s so ugly. I can’t believe how ugly it is. How was it born that way?” Keep talking that way and we’ll see what happens next. Don’t you dare throw shade at Wilfred you inbred createns. It is the cutest cat and nobody is gonna change their mind. Notice I said “their mind” and not “my mind”. That’s because there is no choice. You either love Wilfred or be hunted down by Wilfred himself." />
 
             <TextView
                 android:layout_width="fill_parent"
@@ -92,7 +95,7 @@
                 android:id="@+id/gifview_showcase_combo"
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
-                android:src="@drawable/combomario" />
+                android:src="@drawable/combowilfred" />
 
 
         </LinearLayout>

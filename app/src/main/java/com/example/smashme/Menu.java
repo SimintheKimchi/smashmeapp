@@ -250,7 +250,8 @@ public class Menu extends AppCompatActivity {
         pomdog.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                imageViewActivity();
+                Intent intentLoadNewActivty = new Intent(Menu.this, PomDog.class);
+                startActivity(intentLoadNewActivty);
                 currentChar = 21;
             }
         });
@@ -346,7 +347,8 @@ public class Menu extends AppCompatActivity {
         wilfred.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                imageViewActivity();
+                Intent intentLoadNewActivty = new Intent(Menu.this, Wilfred.class);
+                startActivity(intentLoadNewActivty);
                 currentChar = 33;
             }
         });

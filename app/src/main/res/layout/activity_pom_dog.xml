@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PomDog">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/Ipomdog" />
+
+            <TextView
+                android:id="@+id/textview_showcase_name"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:fontFamily="sans-serif-condensed"
+                android:paddingTop="15dp"
+                android:text="PomDog"
+                android:textAlignment="center"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                tools:text="PomDog" />
+
+            <TextView
+                android:id="@+id/textview_showcase_weightclass"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:fontFamily="monospace"
+                android:padding="6dp"
+                android:text="Light"
+                android:textAlignment="center"
+                android:textSize="18sp"
+                tools:text="Light" />
+
+            <TextView
+                android:id="@+id/textview_showcase_playtype"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:fontFamily="monospace"
+                android:padding="6dp"
+                android:text="Poofy"
+                android:textAlignment="center"
+                android:textSize="18sp"
+                tools:text="Poofy" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:fontFamily="monospace"
+                android:paddingTop="20dp"
+                android:text="How to Play"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                tools:text="How to Play" />
+
+            <TextView
+                android:id="@+id/textview_showcase_instructions"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:fontFamily="monospace"
+                android:padding="6dp"
+                android:text="It’s possible to be both cute and cool at the same time y’know? Look at this thing, it’s a living pom pom how can you not like pom dog? It’s fluffier than fresh sheets laid out in the gentle sun for you to lay down in and relax all day without any worries of life. It’s poofier than a sponge cake that was aerated constantly for 5 years before it was finally prepared and laid in front of you. All this, while being cool."
+                android:textAlignment="center"
+                android:textSize="18sp"
+                tools:text="It’s possible to be both cute and cool at the same time y’know? Look at this thing, it’s a living pom pom how can you not like pom dog? It’s fluffier than fresh sheets laid out in the gentle sun for you to lay down in and relax all day without any worries of life. It’s poofier than a sponge cake that was aerated constantly for 5 years before it was finally prepared and laid in front of you. All this, while being cool." />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:fontFamily="monospace"
+                android:paddingTop="20dp"
+                android:text="Example"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="monospace"
+                android:padding="6dp"
+                android:text="2 cool 4 gif"
+                android:textAlignment="center"
+                android:textSize="18sp"
+                tools:text="2 cool 4 gif" />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

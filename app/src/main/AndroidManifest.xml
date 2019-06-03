@@ -20,7 +20,8 @@
         <activity android:name=".Showcase" />
         <activity android:name=".Ike" />
         <activity android:name=".Cloud" />
-        <activity android:name=".Wilfred"></activity>
+        <activity android:name=".Wilfred" />
+        <activity android:name=".PomDog"></activity>
     </application>
 
 </manifest>
