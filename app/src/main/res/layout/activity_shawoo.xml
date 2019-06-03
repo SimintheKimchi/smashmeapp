@@ -91,6 +91,12 @@
                 android:textSize="20sp"
                 android:textStyle="bold" />
 
+            <ImageView
+                android:id="@+id/imageView8"
+                android:layout_width="match_parent"
+                android:layout_height="550dp"
+                app:srcCompat="@drawable/glopez" />
+
             <pl.droidsonroids.gif.GifImageView
                 android:id="@+id/gifview_showcase_combo"
                 android:layout_width="fill_parent"
