@@ -3,6 +3,7 @@ package com.example.smashme;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.ImageButton;
 import android.widget.ImageView;
@@ -59,8 +60,10 @@ public class Menu extends AppCompatActivity {
         });
     }
 
+
+
     private void imageViewActivity() {
-        Intent intentLoadNewActivty = new Intent(Menu.this, Mario.class);
+        Intent intentLoadNewActivty = new Intent(Menu.this, Showcase.class);
         startActivity(intentLoadNewActivty);
     }
 
