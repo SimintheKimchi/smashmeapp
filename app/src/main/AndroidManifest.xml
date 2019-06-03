@@ -16,7 +16,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Mario"></activity>
+        <activity android:name=".Mario" />
+        <activity android:name=".Showcase"></activity>
     </application>
 
 </manifest>

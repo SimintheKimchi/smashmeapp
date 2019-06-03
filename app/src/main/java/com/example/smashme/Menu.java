@@ -9,23 +9,40 @@ import android.widget.ImageView;
 
 public class Menu extends AppCompatActivity {
 
-    private ImageButton airpodssmash;
+    private ImageButton airpods;
     private ImageButton beter;
     private ImageButton bowser;
     private ImageButton brenda;
-    private ImageButton
-    private ImageButton
-    private ImageButton
-    private ImageButton
-    private ImageButton
-    private ImageButton
-    private ImageButton
-    private ImageButton
-    private ImageButton
-    private ImageButton
-    private ImageButton
-    private ImageButton
-    private ImageButton
+    private ImageButton cloud;
+    private ImageButton corrin;
+    private ImageButton doonil;
+    private ImageButton fox;
+    private ImageButton ike;
+    private ImageButton jarjar;
+    private ImageButton johnwick;
+    private ImageButton ryu;
+    private ImageButton kirby;
+    private ImageButton legoyoda;
+    private ImageButton link;
+    private ImageButton mario;
+    private ImageButton marth;
+    private ImageButton ness;
+    private ImageButton peach;
+    private ImageButton piranhaplant;
+    private ImageButton pit;
+    private ImageButton pomdog;
+    private ImageButton robin;
+    private ImageButton roy;
+    private ImageButton samus;
+    private ImageButton shawoo;
+    private ImageButton sheik;
+    private ImageButton shulk;
+    private ImageButton simon;
+    private ImageButton snake;
+    private ImageButton sonic;
+    private ImageButton squidward;
+    private ImageButton wilfred;
+    private ImageButton zelda;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -34,20 +51,13 @@ public class Menu extends AppCompatActivity {
 
         wireWidgets();
 
-        airpodssmash.setOnClickListener(new View.OnClickListener() {
+        airpods.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 imageViewActivity();
             }
         });
-
-    mario.setOnClickListener(new View.OnClickListener() {
-        @Override
-        public void onClick(View v) {
-            imageViewActivity();
-        }
-    });
-}
+    }
 
     private void imageViewActivity() {
         Intent intentLoadNewActivty = new Intent(Menu.this, Mario.class);
@@ -55,7 +65,7 @@ public class Menu extends AppCompatActivity {
     }
 
     private void wireWidgets(){
-        airpodssmash = findViewById(R.id.button_main_airpods);
+        airpods = findViewById(R.id.button_main_airpods);
         beter = findViewById(R.id.button_main_beter);
         bowser = findViewById(R.id.button_main_bowser);
         brenda = findViewById(R.id.button_main_brenda);
@@ -66,8 +76,8 @@ public class Menu extends AppCompatActivity {
         ike = findViewById(R.id.button_main_ike);
         jarjar = findViewById(R.id.button_main_binks);
         johnwick = findViewById(R.id.button_main_wick);
-        rye = findViewById(R.id.button_main_ryu);
-        kriby = findViewById(R.id.button_main_kirby);
+        ryu = findViewById(R.id.button_main_ryu);
+        kirby = findViewById(R.id.button_main_kirby);
         legoyoda = findViewById(R.id.button_main_yoda);
         link = findViewById(R.id.button_main_link);
         mario = findViewById(R.id.button_main_mario);
