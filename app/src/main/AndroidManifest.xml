@@ -21,7 +21,8 @@
         <activity android:name=".Ike" />
         <activity android:name=".Cloud" />
         <activity android:name=".Wilfred" />
-        <activity android:name=".PomDog"></activity>
+        <activity android:name=".PomDog" />
+        <activity android:name=".Shawoo"></activity>
     </application>
 
 </manifest>
