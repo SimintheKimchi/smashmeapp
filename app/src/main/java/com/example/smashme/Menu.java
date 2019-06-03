@@ -291,7 +291,8 @@ public class Menu extends AppCompatActivity {
         shawoo.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                imageViewActivity();
+                Intent intentLoadNewActivty = new Intent(Menu.this, Shawoo.class);
+                startActivity(intentLoadNewActivty);
                 currentChar = 26;
             }
         });
