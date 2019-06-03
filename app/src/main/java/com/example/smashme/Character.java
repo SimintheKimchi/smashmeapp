@@ -2,7 +2,12 @@ package com.example.smashme;
 
 import java.util.List;
 
-public class Information {
+public class Character {
+    private String currentCharacter;
+    private int currentCharNumber;
+
+    private List<Information> info;
+
     private String image;
     private String name;
     private String weightclass;
@@ -11,7 +16,10 @@ public class Information {
     private String combos;
     private int currentCharNumb;
 
-    public Information(String image, String name, String weightclass, String playtype, String instructions, String combos, int currentCharNumb) {
+    public Character(List<Information> info) {
+        this.currentCharacter = currentCharacter;
+        this.currentCharNumber = currentCharNumber;
+        this.info = info;
         this.image = image;
         this.name = name;
         this.weightclass = weightclass;
@@ -19,6 +27,32 @@ public class Information {
         this.instructions = instructions;
         this.combos = combos;
         this.currentCharNumb = currentCharNumb;
+    }
+
+    public String getCurrentCharacter() {
+        return currentCharacter;
+    }
+
+    public void setCurrentCharacter(String currentCharacter) {
+        this.currentCharacter = currentCharacter;
+    }
+
+
+    public int getCurrentCharNumber(){
+        return currentCharNumber;
+    }
+
+    public void setCurrentCharNumber(){
+        this.currentCharNumber = currentCharNumber;
+    }
+
+
+    public List<Information> getInfo() {
+        return info;
+    }
+
+    public void setInfo(List<Information> info) {
+        this.info = info;
     }
 
     public String getImage() {
@@ -69,15 +103,20 @@ public class Information {
         this.combos = combos;
     }
 
+    public int getCurrentCharNumb() {
+        return currentCharNumb;
+    }
+
+    public void setCurrentCharNumb(int currentCharNumb) {
+        this.currentCharNumb = currentCharNumb;
+    }
+
     @Override
     public String toString() {
-        return "Information{" +
-                "image='" + image + '\'' +
-                ", name='" + name + '\'' +
-                ", weightclass='" + weightclass + '\'' +
-                ", playtype='" + playtype + '\'' +
-                ", instructions='" + instructions + '\'' +
-                ", combos='" + combos + '\'' +
+        return "Character{" +
+                "currentCharacter='" + currentCharacter + '\'' +
+                ", currentCharNumber=" + currentCharNumber +
+                ", info=" + info +
                 '}';
     }
 }

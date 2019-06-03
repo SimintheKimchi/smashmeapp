@@ -1,0 +1,135 @@
+[
+  {
+    "name": "Airpods",
+    "weightclass":"light",
+    "playtype": "Unaware",
+    "instructions":"Airpods are played in a quick and stylish fashion. The key to using these killer headphones is having the ability to not hear anyone. If you can’t hear your enemy, then you cannot fight them, but they can fight you. The whole point of playing as airpods is to ignore the enemy and let them beat you up. You are to rely on someone to say, “OH MY GOD, <name> HAS AIRPODS IN AND CAN’T HEAR US!” With this speedy and unaware character, you are sure to lose.",
+    "currentcharnum": 1
+  },
+  {
+    "name":"Beter",
+    "weightclass":"Light with a slight Belly",
+    "playtype":"Stupid",
+    "instructions":"Flail around until you either fail - at that point give up - or everything somehow ends up working in your favor. Go around dressed like you’re “special” and pretend to be like one o’ those famous korean singing people even though your appearance doesn’t really help out. If someone insults you about these problems, don’t acknowledge it and instead reflect it back at them with another insult or joke. If you can’t think of an insult or joke, just REEEEEEEEE at them or call them poopoo.",
+    "currentcharnum": 2
+  },
+  {
+    "name":"Bowser",
+    "weightclass":"Heavy",
+    "playtype":"Aggressive",
+    "instructions":"Bowser’s attacks all deal significant amount of damage with just as much knockback, making it difficult for the player to chain a combo. So instead of relying on combos, be patient. Wait for the opponent to mess up then strike. If your opponent does not respect the space between themselves and bowser, keep them away with your flaming breath or surprise them with one of your powerful grabs. If you manage to be one stock above the opponent, try to take them out with you utilizing your side special. This fighter is relatively easy to learn and play.",
+    "currentcharnum": 3
+  },
+  {
+    "name":"Brenda",
+    "weightclass":"Getting Heavier",
+    "playtype":"Chinese",
+    "instructions":"Be the most generic chinese business man you can be. Walk around in public looking official with your handsome clothing, proper demeanor, and expensive accessories. But don’t worry, that stressful act doesn’t have to last forever since the moment you receive some privacy, you will give a new definition to stupidity and improperness. Go ahead and molest your friends or say something that would make even Satan blush. Yet, after all these atrocities, be successful in the public life. Thus the life of a stereotypical businessman.",
+    "currentcharnum": 4
+  },
+  {
+    "name":"Cloud",
+    "weightclass":"Medium-Heavy",
+    "playtype":"Aggressive",
+    "instructions":"All of his moves are slow and heavy, but they pack quite the punch. With a single forward-tilt, launch your opponent to the other side of the stage. Then, using Cloud’s surprisingly quick agility, chase them down and chain together a combo that will blow your opponents outside of the map. With Cloud, you want to be up close and personal with your opponent, giving them no chance to breathe. If it seems they will take a while to get back int",
+    "currentcharnum": 5
+  },
+  {
+    "name":"Corrin",
+    "weightclass":"Medium",
+    "playtype":"Aggressive",
+    "instructions":"With Corrin, there is always another chance. This fighter has an arsenal of moves when, if used correctly, can trick your opponent into thinking they’re safe. Take advantage of this and chain together an effective combo that will deal heavy damage if not send them outside of the map. With far range and good recovery, don’t be afraid to give chase to your opponent when they are outside of the stage.",
+    "currentcharnum": 6
+  },
+  {
+    "name":"Doonil",
+    "weightclass":"Heavy AF",
+    "playtype":"Sometimes acts like a South Pasadena Educational Deputy",
+    "instructions":"",
+    "currentcharnum": 7
+  },
+  {
+    "name":"Fox",
+    "weightclass":"Light",
+    "playtype":"Aggressive",
+    "instructions":"His attacks are light and deal little damage to the opponent. But as time goes on, you’ll find that you’ve received heavy damage. Once you land a hit as Fox, you can string a combo that makes it seem like the opponent will never move. As such, you can expect the difficulty of this character to be one of the highest in the game, with even hours of practice not enough to fully master this fighter. But if you do somehow become the best Fox out there, you’ll be near impossible to beat.",
+    "currentcharnum": 8
+  },
+  {
+    "name":"Ike",
+    "weightclass":"Medium",
+    "playtype":"Aggressive",
+    "instructions":"Just like Cloud, Ike likes to be up close and personal. His slow but hard hitting strikes send the opponent miles away, giving you plenty of time to prepare one of your powerful strikes. Ike doesn’t have many options for a combo, making him an easy character to play and master. And if nothing else is really working out, you can just nair over and over again to beat your competition.",
+    "currentcharnum": 9
+  },
+  {
+    "name":"Jar Jar Binks",
+    "weightclass":"Medium",
+    "playtype":"Loud & Annoying",
+    "instructions":"Jar Jar is seen as an average thing from Naboo, but what little people realize is what he is on the inside. He has the power of the dark lord, unleashing himself with his large tongue and very loud, “MEEEESA” or “ANIEEEEE.” Jar Jar is someone very annoying that can destroy the next enemy, the enemy will be so annoyed and will be forced to jump off and remove one of his stocks. Jar Jar will guarantee a non enjoyable victory for yourself and your friends.",
+    "currentcharnum": 10
+  },
+  {
+    "name":"John Wick",
+    "weightclass":"Large",
+    "playtype":"Very Aggressive",
+    "instructions":"John Wick is a very aggressive character. After losing his wife and dog, he will do anything to kill anyone. Same goes in Smash, he is ready to destroy everyone even when the fight hasn’t started. Game is still counting down, not for John Wick. His special start whenever ability allows him to start beating everyone up and knock everyone out with his one liners and special weapons. Still haven’t knocked out everyone, use his special ‘pew pew’ and pew pew all the enemies in one hit. This will for sure not only destroy them all, but also leave everyone confused why you did as the game is already over and you are just in the character selection menu.",
+    "currentcharnum": 11
+  },
+  {
+    "name":"Kirby",
+    "weightclass":"Light",
+    "playtype":"Defensive",
+    "instructions":"Of course, you can play this pink puffball as aggressively as other characters, what with decent combos and hard-hitting attacks. However, this fighter’s true color shines when it is able to swallow the opponent and steal their ability. Doing so adds a new weapon that is special to the fighter that was just swallowed and adds a plethora of ways Kirby can attack his foes.",
+    "currentcharnum": 12
+  },
+  {
+    "name":"Yoda",
+    "weightclass":"Lego",
+    "playtype":"Lego",
+    "instructions":"Yoda has a lightsaber, and anyone with a lightsaber and the power of the force can destroy any enemy in his path. However, his special ability is when he loses one of his stocks, he will make a very loud screeching noise and distract every enemy on the battlefield, which will allow him to make his crazy lightsaber dash move on all the enemies and win the fight. Not enough? No problem, activate his smash ability to get the maximum fight on everyone. He will swing his lightsaber and make loud noises to not only disorient them, but also knock them all out.",
+    "currentcharnum": 13
+  },
+  {
+    "name":"Link",
+    "weightclass":"Medium-Light",
+    "playtype":"Defensive",
+    "instructions":"A fighter with strong strikes but a limited combo set with his regular attacks. But once you let loose the volley of bombs, boomerangs, and arrows in Link’s possession, no enemy can escape Link’s fury. Use his arsenal of projectiles to keep your opponent vulnerable to more combos, keep them at bay, or simply just to annoy them. There are many options one could take when playing as Link, which means more ways to send the enemy flying, and for the player to have fun.",
+    "currentcharnum": 14
+  },
+  {
+    "name":"Mario",
+    "weightclass":"Medium",
+    "playtype":"Aggressive",
+    "instructions":"Mario is a all-around type character that is not too easy, nor to hard to play. When you are playing as Mario, you want to have a good stream of combos that chip away at your opponents percentage little by little until you can deal the finishing blow. Mastering Mario requires a bit of practice but once you get the hang of his combos,you will find that he is a reliable character to play.",
+    "currentcharnum": 15
+  },
+  {
+    "name":"Marth",
+    "weightclass":"Medium",
+    "playtype":"Aggressive",
+    "instructions":"Alongside Lucina, Marth has a large set of moves that has a balance of light and heavy attacks, which allows him to be versatile in almost any situation. His easy-to-do and easy-to-learn combos makes Marth a favorite for both beginners, and seasoned veterans. But Marth shines most when battling in the air, where his moves are strong and easy-to-combo, and his good recovery allows the player to easily recover from any mistakes they do.",
+    "currentcharnum": 16
+  },
+  {
+    "name":"Pomdog",
+    "weightclass":"Light",
+    "playtype":"Poof",
+    "instructions":"It’s possible to be both cute and cool at the same time y’know? Look at this thing, it’s a living pom pom how can you not like pom dog? It’s fluffier than fresh sheets laid out in the gentle sun for you to lay down in and relax all day without any worries of life. It’s poofier than a sponge cake that was aerated constantly for 5 years before it was finally prepared and laid in front of you. All this, while being cool.",
+    "currentcharnum": 17
+  },
+  {
+    "name":"Squidward",
+    "weightclass":"Light",
+    "playtype":"Annoyed",
+    "instructions":"Squidward can be played by complaining to the other enemies about how the fight is unfair. His constant complaining and yapping will force the enemies to move away from you or even jump off because they can’t stand his attitude. Not annoying enough? No problem, activate your cashier ability and you are sure to turn the tide by getting Mr. Krabs to fight on your side and make sure no one takes his money. With his constant anger and complaining, you are sure to win every battle… very annoyed.",
+    "currentcharnum": 18
+  },
+  {
+    "name":"Wilfred",
+    "weightclass":"Fluffy",
+    "playtype":"Ugly is the New Cute",
+    "instructions":"“Ew It’s so ugly. I can’t believe how ugly it is. How was it born that way?” Keep talking that way and we’ll see what happens next. Don’t you dare throw shade at Wilfred you inbred createns. It is the cutest cat and nobody is gonna change their mind. Notice I said “their mind” and not “my mind”. That’s because there is no choice. You either love Wilfred or be hunted down by Wilfred himself.",
+    "currentcharnum": 19
+  }
+]

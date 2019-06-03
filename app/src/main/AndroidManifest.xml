@@ -17,7 +17,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".Mario" />
-        <activity android:name=".Showcase"></activity>
+        <activity android:name=".Showcase" />
     </application>
 
 </manifest>

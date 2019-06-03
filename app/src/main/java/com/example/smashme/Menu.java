@@ -8,6 +8,24 @@ import android.view.View;
 import android.widget.ImageButton;
 import android.widget.ImageView;
 
+import com.google.gson.Gson;
+
+import java.io.ByteArrayOutputStream;
+import java.io.IOException;
+import java.io.InputStream;
+
+import java.io.FileReader;
+import java.util.Arrays;
+import java.util.Iterator;
+import java.util.List;
+import java.util.Map;
+
+import org.json.simple.JSONArray;
+import org.json.simple.JSONObject;
+import org.json.simple.parser.*;
+
+
+
 public class Menu extends AppCompatActivity {
 
     private ImageButton airpods;
@@ -45,24 +63,333 @@ public class Menu extends AppCompatActivity {
     private ImageButton wilfred;
     private ImageButton zelda;
 
+    private static final String TAG = "cheese";
+    private Character list;
+
+    public int getCurrentChar() {
+        return currentChar;
+    }
+
+    public void setCurrentChar(int currentChar) {
+        this.currentChar = currentChar;
+    }
+
+    private int currentChar;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_menu);
 
         wireWidgets();
+        initialize();
 
         airpods.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 imageViewActivity();
+                currentChar = 1;
+            }
+        });
+
+        beter.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                imageViewActivity();
+                currentChar = 2;
+            }
+        });
+
+        bowser.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                imageViewActivity();
+                currentChar = 3;
+            }
+        });
+
+        brenda.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                imageViewActivity();
+                currentChar = 4;
+            }
+        });
+
+        cloud.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                imageViewActivity();
+                currentChar = 5;
+            }
+        });
+
+        corrin.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                imageViewActivity();
+                currentChar = 6;
+            }
+        });
+
+        doonil.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                imageViewActivity();
+                currentChar = 7;
+            }
+        });
+
+        fox.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                imageViewActivity();
+                currentChar = 8;
+            }
+        });
+
+        ike.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                imageViewActivity();
+                currentChar = 9;
+            }
+        });
+
+        jarjar.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                imageViewActivity();
+                currentChar = 10;
+            }
+        });
+
+        johnwick.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                imageViewActivity();
+                currentChar = 11;
+            }
+        });
+
+        kirby.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                imageViewActivity();
+                currentChar = 12;
+            }
+        });
+
+        legoyoda.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                imageViewActivity();
+                currentChar = 13;
+            }
+        });
+
+        link.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                imageViewActivity();
+                currentChar = 14;
+            }
+        });
+
+        mario.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intentLoadNewActivty = new Intent(Menu.this, Mario.class);
+                startActivity(intentLoadNewActivty);
+                currentChar = 15;
+            }
+        });
+
+        marth.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                imageViewActivity();
+                currentChar = 16;
+            }
+        });
+
+        ness.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                imageViewActivity();
+                currentChar = 17;
+            }
+        });
+
+        peach.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                imageViewActivity();
+                currentChar = 18;
+            }
+        });
+
+        piranhaplant.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                imageViewActivity();
+                currentChar = 19;
+            }
+        });
+
+        pit.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                imageViewActivity();
+                currentChar = 20;
+            }
+        });
+
+        pomdog.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                imageViewActivity();
+                currentChar = 21;
+            }
+        });
+
+        robin.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                imageViewActivity();
+                currentChar = 22;
+            }
+        });
+
+        roy.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                imageViewActivity();
+                currentChar = 23;
+            }
+        });
+
+        ryu.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                imageViewActivity();
+                currentChar = 24;
+            }
+        });
+
+        samus.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                imageViewActivity();
+                currentChar = 25;
+            }
+        });
+
+        shawoo.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                imageViewActivity();
+                currentChar = 26;
+            }
+        });
+
+        sheik.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                imageViewActivity();
+                currentChar = 27;
+            }
+        });
+
+        shulk.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                imageViewActivity();
+                currentChar = 28;
+            }
+        });
+
+        simon.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                imageViewActivity();
+                currentChar = 29;
+            }
+        });
+
+        snake.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                imageViewActivity();
+                currentChar = 30;
+            }
+        });
+
+        sonic.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                imageViewActivity();
+                currentChar = 31;
+            }
+        });
+
+        squidward.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                imageViewActivity();
+                currentChar = 32;
+            }
+        });
+
+        wilfred.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                imageViewActivity();
+                currentChar = 33;
+            }
+        });
+
+        zelda.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                imageViewActivity();
+                currentChar = 34;
             }
         });
     }
 
+    public void initialize() {
+        InputStream XmlFileInputStream = getResources().openRawResource(R.raw.info);
+        String sxml = readTextFile(XmlFileInputStream);
+        // create a gson object
+        Gson gson = new Gson();
+        // read your json file into an array of questions
+        Information[] infos =  gson.fromJson(sxml, Information[].class);
+        // convert your array to a list using the Arrays utility class
+        List<Information> characterList = Arrays.asList(infos);
+        // verify that it read everything properly
+        Log.d(TAG, "onCreate: " + characterList.toString());
+        list = new Character(characterList);
+    }
 
+    private String readTextFile(InputStream inputStream) {
+        ByteArrayOutputStream outputStream = new ByteArrayOutputStream();
 
-    private void imageViewActivity() {
+        byte buf[] = new byte[1024];
+        int len;
+        try {
+            while ((len = inputStream.read(buf)) != -1) {
+                outputStream.write(buf, 0, len);
+            }
+            outputStream.close();
+            inputStream.close();
+        } catch (IOException e) {
+
+        }
+        return outputStream.toString();
+    }
+
+    private void imageViewActivity(){
         Intent intentLoadNewActivty = new Intent(Menu.this, Showcase.class);
         startActivity(intentLoadNewActivty);
     }
