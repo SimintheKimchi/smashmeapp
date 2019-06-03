@@ -19,7 +19,8 @@
         <activity android:name=".Mario" />
         <activity android:name=".Showcase" />
         <activity android:name=".Ike" />
-        <activity android:name=".Cloud"></activity>
+        <activity android:name=".Cloud" />
+        <activity android:name=".Wilfred"></activity>
     </application>
 
 </manifest>
