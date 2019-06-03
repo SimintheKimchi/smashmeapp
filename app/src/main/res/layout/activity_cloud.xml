@@ -76,6 +76,7 @@
                 android:layout_height="fill_parent"
                 android:fontFamily="monospace"
                 android:padding="6dp"
+                android:text="All of his moves are slow and heavy, but they pack quite the punch. With a single forward-tilt, launch your opponent to the other side of the stage. Then, using Cloud’s surprisingly quick agility, chase them down and chain together a combo that will blow your opponents outside of the map. With Cloud, you want to be up close and personal with your opponent, giving them no chance to breathe. If it seems they will take a while to get back into battle, charge your limit so you can deal even heavier blows onto your opponent."
                 android:textAlignment="center"
                 android:textSize="18sp"
                 tools:text="All of his moves are slow and heavy, but they pack quite the punch. With a single forward-tilt, launch your opponent to the other side of the stage. Then, using Cloud’s surprisingly quick agility, chase them down and chain together a combo that will blow your opponents outside of the map. With Cloud, you want to be up close and personal with your opponent, giving them no chance to breathe. If it seems they will take a while to get back into battle, charge your limit so you can deal even heavier blows onto your opponent." />
