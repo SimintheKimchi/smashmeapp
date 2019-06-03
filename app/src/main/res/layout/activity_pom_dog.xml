@@ -23,7 +23,7 @@
                 android:id="@+id/imageView6"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                app:srcCompat="@drawable/Ipomdog" />
+                app:srcCompat="@drawable/pomdog_2" />
 
             <TextView
                 android:id="@+id/textview_showcase_name"
